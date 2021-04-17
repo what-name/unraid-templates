@@ -11,7 +11,9 @@
   <Project>https://github.com/what-name/docker-s3sync</Project>
   <Overview>This application backs up every folder mounted at `/data/` to a given AWS S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access and Secret Keys.&#xD;
 &#xD;
-You can supply the usual s3 sync parameters such as `--delete` and everything else. The cron schedule defines how often the sync command is executed, and it uses a lockfile to avoid parallel executions.</Overview>
+You can supply the usual s3 sync parameters such as `--delete` and everything else. The cron schedule defines how often the sync command is executed, and it uses a lockfile to avoid parallel executions.&#xD;
+&#xD;
+For extra safety, you can mount your data folders as read only.</Overview>
   <Category>Backup: Cloud: Status:Beta</Category>
   <WebUI/>
   <TemplateURL/>
@@ -24,7 +26,9 @@ You can supply the usual s3 sync parameters such as `--delete` and everything el
   <DonateLink/>
   <Description>This application backs up every folder mounted at `/data/` to a given AWS S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access and Secret Keys.&#xD;
 &#xD;
-You can supply the usual s3 sync parameters such as `--delete` and everything else. The cron schedule defines how often the sync command is executed, and it uses a lockfile to avoid parallel executions.</Description>
+You can supply the usual s3 sync parameters such as `--delete` and everything else. The cron schedule defines how often the sync command is executed, and it uses a lockfile to avoid parallel executions.&#xD;
+&#xD;
+For extra safety, you can mount your data folders as read only.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
