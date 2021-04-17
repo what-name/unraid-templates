@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/106320-support-what-name-s3sync/</Support>
   <Project>https://github.com/what-name/docker-s3sync</Project>
   <Overview>This application backs up every folder mounted at `/data/` to a given AWS S3 path using the `aws s3 sync` command. It requires a pair of (IAM) Access and Secret Keys.&#xD;
 &#xD;
