@@ -15,7 +15,7 @@ You can supply the usual s3 sync parameters such as `--delete` and everything el
   <Category>Backup: Cloud: Status:Beta</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/what-name/unraid-templates/static/s3-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/what-name/unraid-templates/main/static/s3-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <DonateText/>
